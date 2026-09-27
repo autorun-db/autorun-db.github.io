@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import App from "./App.jsx";
 import Form from "./Form.jsx";
+import Header from "./Header.jsx";
 
 function Root() {
   return (
@@ -11,6 +12,6 @@ function Root() {
 }
 
 export const routes = [
-  { path: "/", element: <Root /> },
-  { path: "/form", element: <Form /> },
+  { path: "/", element: <><Header/><Root /></> },
+  { path: "/form", element: <><Header/><Form /></> },
 ];
