@@ -15,7 +15,13 @@ export function Game({ gioco }) {
           </div>
 
           <p>D3D9: {gioco.D3D9}</p>
-          {gioco.D3D9 === "dxvk" ? <p>DXVK VER: {gioco.dxvk_ver}</p> : <></>}
+          {gioco.D3D9 === "dxvk" ? (
+            <p>DXVK VER: {gioco.dxvk_ver}</p>
+          ) : gioco.D3D9 == "dxvk+vkd3d" ? (
+            <p>DXVK+VKD3D VER: {gioco.dxvk_ver}</p>
+          ) : (
+            <></>
+          )}
           <p>Window: {gioco.Video}</p>
           {gioco.OC ? (
             <>
