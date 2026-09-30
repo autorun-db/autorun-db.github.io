@@ -167,7 +167,7 @@
    "imgSrc": "./img/pacworld2.jpg",
   "rating": 3,
   "D3D9": "dxvk+vkd3d",
-  "dxvk_ver": "dxvk_1.10.3 + vkd3d 3.0.1",
+  "dxvk_ver": "3.10.3 + 3.0.1",
   "Video": "Compositor",
   "OC": false,
   "OC_params": [
