@@ -145,6 +145,38 @@
   ],
   "build_ver": "test-build-4",
   "desc": "instantly crashes"
+},
+{
+  "name": "Hitman 2: Silent Assassin ",
+   "imgSrc": "./img/hitman2.webp",
+  "rating": 3,
+  "D3D9": "dxvk+vkd3d",
+  "dxvk_ver": "3.1.1+3.0.1",
+  "Video": "Compositor",
+  "OC": true,
+  "OC_params": [
+    "1785",
+    "921",
+    "1600"
+  ],
+  "build_ver": "test-build-4",
+  "desc": ""
+},
+{
+  "name": "Pac man World 2",
+   "imgSrc": "./img/pacworld2.jpg",
+  "rating": 3,
+  "D3D9": "dxvk+vkd3d",
+  "dxvk_ver": "dxvk_1.10.3 + vkd3d 3.0.1",
+  "Video": "Compositor",
+  "OC": false,
+  "OC_params": [
+    "STOCK",
+    "STOCK",
+    "STOCK"
+  ],
+  "build_ver": "test-build-4",
+  "desc": "The game runs very well, but there are minor issues with some edges appearing jagged (aliasing), and performance can sometimes drop—for instance, in the forest area; I suggest overclocking"
 }
 
 ]
