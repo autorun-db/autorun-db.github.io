@@ -176,7 +176,7 @@
     "STOCK"
   ],
   "build_ver": "test-build-4",
-  "desc": "The game runs very well, but there are minor issues with some edges appearing jagged (aliasing), and performance can sometimes drop—for instance, in the forest area; I suggest overclocking"
+  "desc": "The game runs very well, but there are minor issues with some edges appearing jagged (aliasing), and performance can sometimes drop, for instance, in the forest area; I suggest overclocking"
 }
 
 ]
