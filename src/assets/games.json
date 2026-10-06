@@ -177,6 +177,22 @@
   ],
   "build_ver": "test-build-4",
   "desc": "The game runs very well, but there are minor issues with some edges appearing jagged (aliasing), and performance can sometimes drop, for instance, in the forest area; I suggest overclocking"
+},
+{
+  "name": "Need for Speed - Prostreet",
+  "imgSrc": "./img/nfspro.png", 
+  "rating": 0,
+  "D3D9": "dxvk+vkd3d",
+  "dxvk_ver": "3.1.1+3.0.1",
+  "Video": "Compositor",
+  "OC": true,
+  "OC_params": [
+    "1785",
+    "921",
+    "1600"
+  ],
+  "build_ver": "test-build-4",
+  "desc": ".log file asks for a dll (d3dx934.dll), After copying it next to the .exe, it gives a persistent error - R6034 an application has made an attempt to load the C runtime library incorrectly."
 }
 
 ]
